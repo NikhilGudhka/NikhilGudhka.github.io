@@ -1,0 +1,140 @@
+/**
+ * Created By Nikhil Gudhka 
+ * Copyright © 2017 Nikhil Gudhka. All rights reserved.
+ */
+
+body, html{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	color: white;
+	height: 100%;
+}
+
+#index-banner{
+	background: #159957;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-image: url(../img/background2880w.jpg);
+	background-image: -webkit-image-set(
+		url(../img/background1920w.jpg) 1x,
+		url(../img/background2880w.jpg) 2x
+		);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	width: 100%;
+	text-align: center;
+    position: relative;
+  	min-height: 100vh;
+  	padding-top: 15%;
+}
+
+h1, h4{
+	font-weight: 700;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+				 0px 8px 13px rgba(0, 0, 0, 0.1),
+				 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: lightgreen;
+}
+
+.hideMe{
+	opacity: 0;
+}
+
+.background-light{
+	background-color: #f7f7f3;
+	color: black;
+}
+
+.background-dark{
+	background-color: #353336;
+}
+
+.section-extra-padding{
+	padding-top: 3em;
+	padding-bottom: 5em;
+}
+
+.row{
+	margin: auto;
+}
+
+.section-heading{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section-heading h6{
+	text-transform: uppercase;
+}
+
+.card, .card .card-reveal {
+	background-color: #f7f7f3;
+	color: black;
+}
+
+.card .card-heading{
+	font-size: 1.2em;
+}
+
+.material-icons{
+	line-height: 1.5;
+}
+
+.card-heading{
+	margin-bottom: 10px;
+}
+
+.heading-margin-bottom{
+	margin-bottom: 50px;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.content-margin-top{
+	margin-top: 20px;
+}
+
+.project-title{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.card-title-align{
+	box-sizing: border-box;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0px 24px 30px 24px;
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	text-align: center;	
+}
+
+.social-icons-padding{
+	margin: 1.4em 0.6em;
+}
+
+.copyright{
+	margin: 0;
+}
